@@ -15,8 +15,10 @@
     "url": "http://github.com/Gozala/buffer-reduce/issues/"
   },
   "dependencies": {
-    "reducers": "~2.0.0",
-    "reducible": "~1.0.0"
+    "reducers": "Raynos/reducers"
+  },
+  "peerDependencies": {
+    "reducible": "~1.0.5"
   },
   "devDependencies": {
     "test": "~0.x.0",
