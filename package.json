@@ -28,8 +28,7 @@
     "repl": "node node_modules/repl-utils",
     "test": "npm run test-node && npm run test-browser",
     "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/index.js",
-    "test-node": "node ./test/index.js",
-    "postinstall": "npm dedup"
+    "test-node": "node ./test/index.js"
   },
   "licenses": [{
     "type" : "MIT",
